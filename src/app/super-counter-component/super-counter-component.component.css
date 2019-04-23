@@ -1,0 +1,42 @@
+#Increment:hover, #Decrement:hover {
+    transform: scale(1.1); 
+}
+
+
+#Increment {
+    background-color: green;
+    height: 35px;
+    width: 75px;
+}
+
+#Decrement {
+    background-color: lightskyblue;
+    height: 35px;
+    width: 75px;
+}
+
+#Increment, #Decrement {
+    font-size: 1.1em;
+    outline: none;
+}
+
+button {
+    margin: 0 2% 0 2%;
+    text-align: center;
+}
+
+h4 {
+    text-align: center; 
+    width: 33%;
+    font-size: 1.2em;
+    color: blueviolet;
+}
+
+.details {
+    margin-left: 5%;
+    width: 30%;
+}
+
+h4 {
+    text-align: center;
+}

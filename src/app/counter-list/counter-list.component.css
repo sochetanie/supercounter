@@ -1,0 +1,20 @@
+.counterList {
+    margin-left: 10%;
+}
+
+.Create {
+    height: 35px;
+    width: 75px;
+    background-color: hotpink;
+    font-size: 1.05em;
+    outline: none;
+    margin-bottom: 5%;
+}
+
+.Create:hover {
+    transform: scale(1.1); 
+}
+
+
+
+

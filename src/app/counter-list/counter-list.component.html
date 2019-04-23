@@ -1,0 +1,16 @@
+<div class="counterList">
+    <h3>{{name}}</h3>
+    <button class="Create" (click)="create()" [ngClass]="'btn btn-create'">Create</button>
+    
+    <br>
+
+            <superCounter *ngFor="let super of superCounter | slice: 0:3;" [superCounter]="super" [firstName]="'sanjay'">
+                {{super}}
+            </superCounter>
+
+            <counterDetail *ngFor="let c of counters; let i = index" [counter]="c">
+                {{c}}> 
+            </counterDetail>
+</div>
+
+

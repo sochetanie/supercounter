@@ -1,0 +1,9 @@
+<div class="details">
+    <h4>{{superCounter.value}}</h4>
+    <button id="Increment" (click)="incrementSuper()">Super+</button>
+    <button id='Decrement' (click)="decrementSuper()">Super-</button>
+
+    <div *ngIf='superCounter.length === 3'>
+        <button id='start' (click)="decrementSuper()">Super-</button>
+    </div>
+</div>
